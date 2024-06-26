@@ -1,0 +1,72 @@
+/* Reservation Page Styles */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.reservation-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.reservation-section h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #95999e;
+    text-transform: uppercase;
+}
+
+.reservation-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.reservation-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation-form form .form-group {
+    margin-bottom: 20px;
+}
+
+.reservation-form form .form-group label {
+    font-weight: bold;
+}
+
+.reservation-form form .form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.reservation-form form button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #95999e;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reservation-form form button[type="submit"]:hover {
+    background-color: #747474;
+}
+
+.reservation-form form .form-group:last-child {
+    margin-bottom: 0;
+}
+

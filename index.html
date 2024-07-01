@@ -42,6 +42,9 @@
 					</a>
 				</li>
 				<li class="nav-item">
+					<a href="#staff" class="nav-link">Staff</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="menu.html">
 					Menu
 					</a>
@@ -70,7 +73,7 @@
 			</a>
 		</div>
 	</section>
-
+	
 	<!-- About Section -->
 	<section id="about" class="about-section">
 		<div class="container">
@@ -134,7 +137,56 @@
 			</a>
 		</div>
 	</section>
-
+<!-- Staff Section -->
+<section id="staff" class="staff-section pt-5 pb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center mb-5">
+				<h2 class="section-heading display-4">Meet Our Staff</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 mb-5">
+				<img src="chef.jpg" class="img-fluid rounded" alt="Chef Image">
+				<h4 class="mt-4" style="display: flex; align-items: center; align-content: center; padding: auto; align-self: center;">Chef</h4>
+			</div>
+			<div class="col-lg-4 mb-5">
+				<img src="server.jpg" class="img-fluid rounded" alt="Waiter Image">
+				<h4 class="mt-4">server</h4>
+			</div>
+			<div class="col-lg-4 mb-5">
+				<img src="manager.jpg" class="img-fluid rounded" alt="Bartender Image">
+				<h4 class="mt-4">manager</h4>
+			</div>
+		</div>
+	</div>
+	<style>
+		.staff-section {
+			background-color: #f8f9fa;
+			animation: fadeIn 0.5s ease-in-out forwards;
+		}
+		.staff-section h2 {
+			color: #343a40;
+		}
+		.staff-section h4 {
+			color: #6c757d;
+		}
+		.staff-section img {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			animation: slideIn 0.5s ease-in-out forwards;
+		}
+		
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+		
+		@keyframes slideIn {
+			from { transform: translateY(100%); }
+			to { transform: translateY(0); }
+		}
+	</style>
+</section>
 	<!-- Reservation and Contact Section -->
 	<section id="reservations" class="reservation-section py-5">
 		<div class="container">
@@ -194,7 +246,7 @@
 						</tbody>
 					</table>
 					<h2 class="section-heading">Contact</h2>
-					<p class="text-muted">410-602-8008<br>15 Florida Ave<br>Palo-Alto, 1111 CA</p>
+					<p class="text-muted">0000000000<br>15 indore india<br>india, 1111 CA</p>
 				</div>
 			</div>
 		</div>
@@ -203,7 +255,7 @@
 	<!-- Footer Section -->
 	<footer class="footer-section text-center">
 		<div class="container">
-			<p>© 2023 Fooddddie's Kitchen. All rights reserved.</p>
+			<p>© 2023 Fooddddie's Kitchen by kartik. All rights reserved.</p>
 		</div>
 	</footer>
 
